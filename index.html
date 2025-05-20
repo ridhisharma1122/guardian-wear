@@ -67,7 +67,8 @@
   <section class="hero">
     <h1>Smart Safety, Stylishly Worn</h1>
     <p>A wearable device in the form of a ring, locket, or watch that detects threats, captures evidence, and alerts help instantly.</p>
-  </section>
+    <button onclick="triggerSOS()">🚨 Send SOS</button>
+ </section>
 
   <section class="features">
     <div class="feature">
@@ -87,9 +88,15 @@
       <p>Connects with a mobile app to control settings, view data, and trigger alerts manually or automatically.</p>
     </div>
   </section>
-
   <footer>
     <p>&copy; 2025 Guardian Wear. All rights reserved.</p>
   </footer>
+  <script>
+  function triggerSOS() {
+    alert('🚨 SOS triggered! Help is on the way.');
+    // Future: Send location, video, or connect to the app
+  }
+</script>
+
 </body>
 </html>
